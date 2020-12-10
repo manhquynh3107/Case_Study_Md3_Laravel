@@ -3214,14 +3214,16 @@
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/view_create.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/view_operations.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Case_MD3_Quynh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Case_MD3_Quynh.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/forms.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/listUser.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/listUser.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/tables.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/widgets.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/map.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/map.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/modals.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/modals.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/page_admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/page_admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/headers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/headers.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3467,7 +3469,7 @@
       <workItem from="1607475832806" duration="486000" />
       <workItem from="1607488305137" duration="7766000" />
       <workItem from="1607520894391" duration="117000" />
-      <workItem from="1607523732381" duration="4028000" />
+      <workItem from="1607523732381" duration="8628000" />
     </task>
     <servers />
   </component>
@@ -3601,10 +3603,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="504" y="240" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1607305075338" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1607564874100">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1607582256770">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607564874100" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607582256770" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.25.1440.827@0.25.1440.827" timestamp="1606901934129" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1607398495385" />
   </component>

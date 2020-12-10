@@ -8,14 +8,14 @@
     <nav id="sidebar">
         <div class="sidebar-header">
             <h1>
-                <a href="#">Admin</a>
+                <a href="{{route('addUser')}}">Admin</a>
             </h1>
             <span>Q</span>
         </div>
         <div class="profile-bg"></div>
         <ul class="list-unstyled components">
             <li class="active">
-                <a href="#">
+                <a href="{{route('notFound')}}">
                     <i class="fas fa-th-large"></i>
                     Statistical Board
                 </a>
@@ -72,12 +72,12 @@
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
-                <!-- Search-from -->
-                <form action="#" method="post" class="form-inline mx-auto search-form">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" required="">
-                    <button class="btn btn-style my-2 my-sm-0" type="submit">Search</button>
-                </form>
-                <!--// Search-from -->
+{{--                <!-- Search-from -->--}}
+{{--                <form action="#" method="post" class="form-inline mx-auto search-form">--}}
+{{--                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" required="">--}}
+{{--                    <button class="btn btn-style my-2 my-sm-0" type="submit">Search</button>--}}
+{{--                </form>--}}
+{{--                <!--// Search-from -->--}}
                 <ul class="top-icons-agileits-w3layouts float-right">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"

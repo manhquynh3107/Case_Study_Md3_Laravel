@@ -33,9 +33,9 @@ Route::get('/charts', function () {
 Route::get('/listUser', function () {
     return view('admin.listUser');
 })->name('listUser');
-Route::get('/forms', function () {
-    return view('admin.pricing');
-})->name('price');
+Route::get('/notFound', function () {
+    return view('admin.modals');
+})->name('notFound');
 Route::get('/map', function () {
     return view('admin.map');
 })->name('map');

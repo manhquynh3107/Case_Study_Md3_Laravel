@@ -21,7 +21,7 @@
         </div>
         <!--// Map2 -->
 
-    </section>
+
 
     <!--// Carousel content -->
 @endsection

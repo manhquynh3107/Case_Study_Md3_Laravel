@@ -1,241 +1,56 @@
-@extends('admin.page_admin')
-@section('body')
-    <!-- main-heading -->
-    <h2 class="main-title-w3layouts mb-2 text-center">Modals</h2>
-    <!--// main-heading -->
+<html>
 
-    <!-- Modals content -->
-    <section class="modals-section">
-        <div class="outer-w3-agile mt-3">
-            <!-- Live Demo -->
-            <h4 class="tittle-w3-agileits mb-4">Live Demo Modal</h4>
-            <!-- Button trigger modal -->
-            <div class="d-flex justify-content-around mb-5">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                    Launch demo modal
-                </button>
-            </div>
-            <!-- popup content -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <img src="{{asset('/assets/css_admin/images/ban4.jpg')}}" class="img-fluid" alt="Responsive image">
-                            <p class="paragraph-agileits-w3layouts mt-3">Maecenas interdum, metus vitae tincidunt porttitor, magna quam egestas sem, ac scelerisque
-                                nisl nibh vel lacus. Proin eget gravida odio. Donec ullamcorper est eu accumsan cursus.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// popup content -->
-            <!--// Live Demo -->
+<style>
 
-            <!-- Optional Sizes -->
-            <h4 class="tittle-w3-agileits mb-4">Optional Sizes Modal</h4>
-            <!-- Button trigger modal -->
-            <div class="d-flex justify-content-around mb-5">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
-            </div>
+    body { background-color: #111111; }
+    div {
+        padding-top: 90px;
+        font-size: 200px;
+        font-family: 'Monoton', cursive;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
+        color: red;
+    }
+    div p { margin:0; }
+    #error:hover { text-shadow: 0 0 200px #ffffff,0 0 80px #008000,0 0 6px #0000ff; }
+    #code:hover { text-shadow: 0 0 100px red,0 0 40px FireBrick,0 0 8px DarkRed; }
+    #error {
+        color: #fff;
+        text-shadow: 0 0 80px #ffffff,0 0 30px #008000,0 0 6px #0000ff;
+    }
+    #error span {
+        animation: upper 11s linear infinite;
+    }
+    #code span:nth-of-type(2) {
+        animation: lower 10s linear infinite;
+    }
+    #code span:nth-of-type(1) {
+        text-shadow: none;
+        opacity:.4;
+    }
+    @keyframes upper {
+        0%,19.999%,22%,62.999%,64%, 64.999%,70%,100% {
+            opacity:.99; text-shadow: 0 0 80px #ffffff,0 0 30px #008000,0 0 6px #0000ff;
+        }
+        20%,21.999%,63%,63.999%,65%,69.999% {
+            opacity:0.4; text-shadow: none;
+        }
+    }
+    @keyframes lower {
+        0%,12%,18.999%,23%,31.999%,37%,44.999%,46%,49.999%,51%,58.999%,61%,68.999%,71%,85.999%,96%,100% {
+            opacity:0.99; text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
+        }
+        19%,22.99%,32%,36.999%,45%,45.999%,50%,50.99%,59%,60.999%,69%,70.999%,86%,95.999% {
+            opacity:0.4; text-shadow: none;
+        }
+    }
+</style>
+<button style=""><a style="color: aquamarine" href="{{route('admin.login')}}">B</a>ack</button>
 
-            <!-- Large popup content -->
+<div>
+    <p id="error">E<span>r</span>ror</p>
+    <p id="code">4<span>0</span><span>4</span></p>
+</div>
 
-            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-
-                        <div class="modal-header">
-                            <h4 class="modal-title" id="myLargeModalLabel">Large modal</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">×</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p class="paragraph-agileits-w3layouts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit leo mauris,
-                                sit amet egestas velit iaculis non. Aenean laoreet purus elit, quis porta dui aliquam
-                                in.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// Large popup content -->
-            <!-- Small popup content -->
-
-            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-sm">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title" id="mySmallModalLabel">Small modal</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">×</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p class="paragraph-agileits-w3layouts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit leo mauris,
-                                sit amet egestas velit iaculis non. Aenean laoreet purus elit, quis porta dui aliquam
-                                in.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Small popup content -->
-            <!--// Optional Sizes -->
-
-            <!-- Grid Modal -->
-            <h4 class="tittle-w3-agileits mb-4">Grid Alignment Modal</h4>
-            <!-- Button trigger modal -->
-            <div class="d-flex justify-content-around mb-5">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong_grids">
-                    Launch demo modal
-                </button>
-            </div>
-            <!-- popup content -->
-            <div class="modal fade" id="exampleModalLong_grids" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-md-4 bg-grid">.col-md-4</div>
-                                    <div class="col-md-4 ml-auto bg-grid">.col-md-4 .ml-auto</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-3 ml-auto bg-grid">.col-md-3 .ml-auto</div>
-                                    <div class="col-md-2 ml-auto bg-grid">.col-md-2 .ml-auto</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 ml-auto bg-grid">.col-md-6 .ml-auto</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-9 bg-grid">
-                                        Level 1: .col-sm-9
-                                        <div class="row">
-                                            <div class="col-8 col-sm-6 bg-grid">
-                                                Level 2: .col-8 .col-sm-6
-                                            </div>
-                                            <div class="col-4 col-sm-6 bg-grid">
-                                                Level 2: .col-4 .col-sm-6
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// popup content -->
-            <!--// Grid Modal -->
-
-            <!-- Scrolling long content Modal -->
-            <h4 class="tittle-w3-agileits mb-4">Scrolling long content Modal</h4>
-            <!-- Button trigger modal -->
-            <div class="d-flex justify-content-around">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-                    Launch demo modal
-                </button>
-            </div>
-            <!-- popup content -->
-            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle1" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle1">Modal title</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p class="paragraph-agileits-w3layouts">Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
-                                in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p class="paragraph-agileits-w3layouts">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-                                lacus vel augue laoreet ru
-                        </div>
-                        <div class="modal-body">
-                            <p class="paragraph-agileits-w3layouts">Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
-                                in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p class="paragraph-agileits-w3layouts">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-                                lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                            <p class="paragraph-agileits-w3layouts">Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque
-                                nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor
-                                fringilla.
-                            </p>
-                            <p class="paragraph-agileits-w3layouts">Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
-                                in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p class="paragraph-agileits-w3layouts">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-                                lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                            <p class="paragraph-agileits-w3layouts">Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque
-                                nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor
-                                fringilla.
-                            </p>
-                            <p class="paragraph-agileits-w3layouts">Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
-                                in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p class="paragraph-agileits-w3layouts">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-                                lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                            <p class="paragraph-agileits-w3layouts">Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque
-                                nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor
-                                fringilla.
-                            </p>
-                            <p class="paragraph-agileits-w3layouts">Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
-                                in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p class="paragraph-agileits-w3layouts">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-                                lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                            <p class="paragraph-agileits-w3layouts">Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque
-                                nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor
-                                fringilla.
-                            </p>
-                            <p class="paragraph-agileits-w3layouts">Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
-                                in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p class="paragraph-agileits-w3layouts">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-                                lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                            <p class="paragraph-agileits-w3layouts">Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque
-                                nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor
-                                fringilla.
-                            </p>
-                            <p class="paragraph-agileits-w3layouts">Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
-                                in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p class="paragraph-agileits-w3layouts">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-                                lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                            <p class="paragraph-agileits-w3layouts">Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque
-                                nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor
-                                fringilla.
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// popup content -->
-            <!--// Scrolling long content Modal -->
-
-
-        </div>
-    </section>
-
-    <!--// Modals content -->
-@endsection
+</html>
