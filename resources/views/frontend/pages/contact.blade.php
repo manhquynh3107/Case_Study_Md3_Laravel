@@ -21,7 +21,6 @@
                 </div>
                 <div class="contact-view mt-lg-5 mt-4">
                     <div class="conhny-form-section">
-{{--                        <form action="" method="post" class="formhny-sec">--}}
                         <form action="mailto:manhquynh3107@gmail.com" method="post" enctype="text/plain">
                             <div class="form-grids">
                                 <div class="form-input">
