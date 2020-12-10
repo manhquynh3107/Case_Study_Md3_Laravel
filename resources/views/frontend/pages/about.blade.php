@@ -19,10 +19,8 @@
                         <img class="img-fluid" src="{{asset('/assets/images/banner1.jpg')}}">
                     </div>
                     <div class="col-lg-6 ab-left pl-lg-4 mt-lg-0 mt-5">
-                        <h3 class="hny-title">Great Entertainment</h3>
-                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam id quisquam ipsam
-                            molestiae ad eius accusantium? Nulla dolorem perferendis inventore! posuere cubilia Curae;
-                            Nunc non risus in justo convallis feugiat.</p>
+                        <h3 class="hny-title">QnS</h3>
+                        <p class="mt-3">Have fun with Us.</p>
                         <div class="ready-more mt-4">
                             @if(\Illuminate\Support\Facades\Route::has('login'))
                                 @if(\Illuminate\Support\Facades\Auth::user())
@@ -35,6 +33,7 @@
                                 @endif
                             <a href="{{route('login')}}" class="btn read-button">Sign In <span class="fa fa-angle-double-right ml-2" aria-hidden="true"></span></a>
                                 <form id="frm-logout" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    <h1>Log Out</h1>
                                     {{ csrf_field() }}
                                 </form>
                         </div>
@@ -45,7 +44,7 @@
                     <div class="stats_left">
                         <div class="counter_grid">
                             <div class="icon_info">
-                                <p class="counter">65</p>
+                                <p class="counter">2323</p>
                                 <h4>Movies</h4>
 
                             </div>
@@ -54,7 +53,7 @@
                     <div class="stats_left">
                         <div class="counter_grid">
                             <div class="icon_info">
-                                <p class="counter">165</p>
+                                <p class="counter">4545</p>
                                 <h4>Shows</h4>
 
                             </div>
@@ -63,7 +62,7 @@
                     <div class="stats_left">
                         <div class="counter_grid">
                             <div class="icon_info">
-                                <p class="counter">463</p>
+                                <p class="counter">6767</p>
                                 <h4>Members</h4>
 
                             </div>
@@ -72,8 +71,8 @@
                     <div class="stats_left">
                         <div class="counter_grid">
                             <div class="icon_info">
-                                <p class="counter">5063</p>
-                                <h4>Year of Use</h4>
+                                <p class="counter">96969696</p>
+                                <h4>Time of Use</h4>
 
                             </div>
                         </div>
@@ -97,7 +96,7 @@
                                     <a href="#url"><img src="{{asset('assets/images/a1.jpg')}}" alt="a1 img" class="img-fluid rounded team-image" /></a>
                                 </div>
                                 <div class="column text-center">
-                                    <h3 class="name-pos"><a href="#url">Dwayne johnson</a></h3>
+                                    <h3 class="name-pos"><a href="#url">QnS</a></h3>
 
                                     <div class="social">
                                         <a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
@@ -112,10 +111,10 @@
                             <div class="box16">
                                 <div class="d-grid team-info">
                                     <div class="column position-relative">
-                                        <a href="#url"><img src="{{asset('/assets/images/a2.jpg')}}" alt="" class="img-fluid rounded team-image" /></a>
+                                        <a href="#url"><img src="{{asset('/assets/images/a3.jpg')}}" alt="" class="img-fluid rounded team-image" /></a>
                                     </div>
                                     <div class="column text-center">
-                                        <h3 class="name-pos"><a href="#url">Karen Gillan</a></h3>
+                                        <h3 class="name-pos"><a href="#url">QnS</a></h3>
 
                                         <div class="social">
                                             <a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
@@ -134,45 +133,8 @@
                                         <a href="#url"><img src="{{asset('/assets/images/a3.jpg')}}" alt="" class="img-fluid rounded team-image" /></a>
                                     </div>
                                     <div class="column text-center">
-                                        <h3 class="name-pos"><a href="#url">Chris Hemsworth</a></h3>
+                                        <h3 class="name-pos"><a href="#url">QnS</a></h3>
 
-                                        <div class="social">
-                                            <a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                                            <a href="#twitter" class="twitter"><span class="fa fa-youtube" aria-hidden="true"></span></a>
-                                            <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="item vhny-grid">
-                            <div class="box16">
-                                <div class="d-grid team-info">
-                                    <div class="column position-relative">
-                                        <a href="#url"><img src="{{asset('/assets/images/a4.jpg')}}" alt="" class="img-fluid rounded team-image" /></a>
-                                    </div>
-                                    <div class="column text-center">
-                                        <h3 class="name-pos"><a href="#url">Elton John</a></h3>
-
-                                        <div class="social">
-                                            <a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                                            <a href="#twitter" class="twitter"><span class="fa fa-youtube" aria-hidden="true"></span></a>
-                                            <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="item vhny-grid">
-                            <div class="box16">
-                                <div class="d-grid team-info">
-                                    <div class="column position-relative">
-                                        <a href="#url"><img src="{{asset('/assets/images/a5.jpg')}}" alt="" class="img-fluid rounded team-image" /></a>
-                                    </div>
-                                    <div class="column text-center">
-                                        <h3 class="name-pos"><a href="#url">Liu Yifei</a></h3>
                                         <div class="social">
                                             <a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
                                             <a href="#twitter" class="twitter"><span class="fa fa-youtube" aria-hidden="true"></span></a>
@@ -190,7 +152,44 @@
                                         <a href="#url"><img src="{{asset('/assets/images/a3.jpg')}}" alt="" class="img-fluid rounded team-image" /></a>
                                     </div>
                                     <div class="column text-center">
-                                        <h3 class="name-pos"><a href="#url">Chris Hemsworth</a></h3>
+                                        <h3 class="name-pos"><a href="#url">QnS</a></h3>
+
+                                        <div class="social">
+                                            <a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                                            <a href="#twitter" class="twitter"><span class="fa fa-youtube" aria-hidden="true"></span></a>
+                                            <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item vhny-grid">
+                            <div class="box16">
+                                <div class="d-grid team-info">
+                                    <div class="column position-relative">
+                                        <a href="#url"><img src="{{asset('/assets/images/a3.jpg')}}" alt="" class="img-fluid rounded team-image" /></a>
+                                    </div>
+                                    <div class="column text-center">
+                                        <h3 class="name-pos"><a href="#url">QnS</a></h3>
+                                        <div class="social">
+                                            <a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                                            <a href="#twitter" class="twitter"><span class="fa fa-youtube" aria-hidden="true"></span></a>
+                                            <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item vhny-grid">
+                            <div class="box16">
+                                <div class="d-grid team-info">
+                                    <div class="column position-relative">
+                                        <a href="#url"><img src="{{asset('/assets/images/a3.jpg')}}" alt="" class="img-fluid rounded team-image" /></a>
+                                    </div>
+                                    <div class="column text-center">
+                                        <h3 class="name-pos"><a href="#url">Chris QnS</a></h3>
 
                                         <div class="social">
                                             <a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
@@ -216,7 +215,7 @@
             <div class="cusrtomer-layout py-5">
                 <div class="container py-lg-4">
                     <div class="headerhny-title">
-                        <h3 class="hny-title">Our Testimonials</h3>
+                        <h3 class="hny-title">They Said What Us?</h3>
                     </div>
                     <!-- /grids -->
                     <div class="testimonial-width">
@@ -225,11 +224,10 @@
                                 <div class="testimonial-content">
                                     <div class="testimonial">
                                         <blockquote>
-                                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
-                                                voluptate rem ullam dolore!.</q>
+                                            <q>Interested ! Gut Chop. Amazing</q>
                                         </blockquote>
                                         <div class="testi-des">
-                                            <div class="test-img"><img src="{{asset('/assets/images/team1.jpg')}}" class="img-fluid" alt="/">
+                                            <div class="test-img"><img src="{{asset('/assets/images/a3.jpg.jpg')}}" class="img-fluid" alt="/">
                                             </div>
                                             <div class="peopl align-self">
                                                 <h3>Johnson smith</h3>
@@ -243,11 +241,10 @@
                                 <div class="testimonial-content">
                                     <div class="testimonial">
                                         <blockquote>
-                                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
-                                                voluptate rem ullam dolore!.</q>
+                                            <q>Gut Chopppppp!.</q>
                                         </blockquote>
                                         <div class="testi-des">
-                                            <div class="test-img"><img src="{{asset('/assets/images/team2.jpg')}}" class="img-fluid" alt="/">
+                                            <div class="test-img"><img src="{{asset('/assets/images/a1.jpg')}}" class="img-fluid" alt="/">
                                             </div>
                                             <div class="peopl align-self">
                                                 <h3>Alexander leo</h3>
@@ -261,11 +258,10 @@
                                 <div class="testimonial-content">
                                     <div class="testimonial">
                                         <blockquote>
-                                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
-                                                voluptate rem ullam dolore!.</q>
+                                            <q>good job! Amazing.</q>
                                         </blockquote>
                                         <div class="testi-des">
-                                            <div class="test-img"><img src="{{asset('assets/images/team3.jpg')}}" class="img-fluid" alt="/">
+                                            <div class="test-img"><img src="{{asset('assets/images/a4.jpg')}}" class="img-fluid" alt="/">
                                             </div>
                                             <div class="peopl align-self">
                                                 <h3>Roy Linderson</h3>
@@ -279,11 +275,10 @@
                                 <div class="testimonial-content">
                                     <div class="testimonial">
                                         <blockquote>
-                                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
-                                                voluptate rem ullam dolore!.</q>
+                                            <q>Very Funny! Good.</q>
                                         </blockquote>
                                         <div class="testi-des">
-                                            <div class="test-img"><img src="{{asset('/assets/images/team4.jpg')}}" class="img-fluid" alt="/">
+                                            <div class="test-img"><img src="{{asset('/assets/images/a1.jpg.jpg')}}" class="img-fluid" alt="/">
                                             </div>
                                             <div class="peopl align-self">
                                                 <h3>Mike Thyson</h3>
@@ -297,11 +292,10 @@
                                 <div class="testimonial-content">
                                     <div class="testimonial">
                                         <blockquote>
-                                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
-                                                voluptate rem ullam dolore!.</q>
+                                            <q>Happy !.</q>
                                         </blockquote>
                                         <div class="testi-des">
-                                            <div class="test-img"><img src="{{asset('/assets/images/team2.jpg')}}" class="img-fluid" alt="/">
+                                            <div class="test-img"><img src="{{asset('/assets/images/a4.jpg.jpg')}}" class="img-fluid" alt="/">
                                             </div>
                                             <div class="peopl align-self">
                                                 <h3>Laura gill</h3>
@@ -315,11 +309,10 @@
                                 <div class="testimonial-content">
                                     <div class="testimonial">
                                         <blockquote>
-                                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
-                                                voluptate rem ullam dolore!.</q>
+                                            <q>Good luck!.</q>
                                         </blockquote>
                                         <div class="testi-des">
-                                            <div class="test-img"><img src="{{asset('/assets/images/team3.jpg')}}" class="img-fluid" alt="/">
+                                            <div class="test-img"><img src="{{asset('/assets/images/a1.jpg.jpg')}}" class="img-fluid" alt="/">
                                             </div>
                                             <div class="peopl align-self">
                                                 <h3>Smith Johnson</h3>
@@ -347,7 +340,7 @@
                                 <h3 class="hny-title">New Releases</h3>
                             </div>
                             <div class="headerhny-right text-lg-right">
-                                <h4><a class="show-title" href="{{route('kind')}}">Show all</a></h4>
+                                <h4><a class="show-title" href="{{route('showListFilm')}}">Show all</a></h4>
                             </div>
                         </div>
                     </div>
@@ -369,8 +362,8 @@
                                     <span class="fa fa-play video-icon" aria-hidden="true"></span>
                                 </a>
                             </div>
-                            <h3> <a class="title-gd" href="{{route('kind')}}">The Hustle</a></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            <h3> <a class="title-gd" href="{{route('kind')}}">The Super Warrior</a></h3>
+                            <p>3000$</p>
                             <div class="button-center text-center mt-4">
                                 <a href="{{route('kind')}}" class="btn watch-button">Watch now</a>
                             </div>
@@ -394,8 +387,8 @@
                                     <span class="fa fa-play video-icon" aria-hidden="true"></span>
                                 </a>
                             </div>
-                            <h3> <a class="title-gd" href="{{route('kind')}}">The Lego</a></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            <h3> <a class="title-gd" href="{{route('kind')}}">Battle of Hades</a></h3>
+                            <p>2987$</p>
                             <div class="button-center text-center mt-4">
                                 <a href="{{route('kind')}}" class="btn watch-button">Watch now</a>
                             </div>
@@ -418,8 +411,8 @@
                                     <span class="fa fa-play video-icon" aria-hidden="true"></span>
                                 </a>
                             </div>
-                            <h3> <a class="title-gd" href="{{route('kind')}}">Joker </a></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            <h3> <a class="title-gd" href="{{route('kind')}}">Shark Hunter </a></h3>
+                            <p>23452$</p>
                             <div class="button-center text-center mt-4">
                                 <a href="{{route('kind')}}" class="btn watch-button">Watch now</a>
                             </div>
@@ -443,7 +436,7 @@
                                 </a>
                             </div>
                             <h3> <a class="title-gd" href="{{route('kind')}}">Toy story 4</a></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            <p>2344$</p>
                             <div class="button-center text-center mt-4">
                                 <a href="{{route('kind')}}" class="btn watch-button">Watch now</a>
                             </div>
@@ -467,8 +460,8 @@
                                     <span class="fa fa-play video-icon" aria-hidden="true"></span>
                                 </a>
                             </div>
-                            <h3> <a class="title-gd" href="{{route('kind')}}">Rocketman</a></h3>
-                            <p>Coming Soon</p>
+                            <h3> <a class="title-gd" href="{{route('kind')}}">Monkey King</a></h3>
+                            <p>42043$</p>
                             <div class="button-center text-center mt-4">
                                 <a href="{{route('kind')}}" class="btn watch-button">Watch now</a>
                             </div>
@@ -491,8 +484,8 @@
                                     <span class="fa fa-play video-icon" aria-hidden="true"></span>
                                 </a>
                             </div>
-                            <h3> <a class="title-gd" href="{{route('kind')}}">Doctor Sleep</a></h3>
-                            <p>Coming Soon</p>
+                            <h3> <a class="title-gd" href="{{route('kind')}}">Doremon Cartoon</a></h3>
+                            <p>283476$</p>
                             <div class="button-center text-center mt-4">
                                 <a href="{{route('kind')}}" class="btn watch-button">Watch now</a>
                             </div>

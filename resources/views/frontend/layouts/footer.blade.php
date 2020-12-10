@@ -86,7 +86,7 @@
                         </li>
                         <li><a href="https://www.youtube.com/channel/UCXzhS2cCgB9TtF68ss8t8Og?view_as=subscriber"><span class="fa fa-youtube" aria-hidden="true"></span></a>
                         </li>
-                        <li><a href="#twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+                        <li><a href="{{route('comingSoon')}}"><span class="fa fa-twitter" aria-hidden="true"></span></a>
                         </li>
                         <li><a href="https://myaccount.google.com/profile"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
                         </li>

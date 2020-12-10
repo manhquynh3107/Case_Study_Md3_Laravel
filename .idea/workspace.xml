@@ -15,233 +15,6 @@
   <component name="ChangeListManager">
     <list default="true" id="edb4efeb-6a22-4fc7-af72-c708317afdbd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/Sites.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Case_MD3_Quynh.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_11_24_20__10_17_PM.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Actions/Fortify/PasswordValidationRules.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Actions/Fortify/ResetUserPassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Actions/Fortify/UpdateUserPassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Actions/Fortify/UpdateUserProfileInformation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Actions/Jetstream/DeleteUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/DashboardController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/AuthenticateUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/UserMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Responses/LoginResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/FortifyServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/JetstreamServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/TestComponent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/fortify.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jetstream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/sanctum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_01_171000_create_roles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_03_093301_create_projects_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/RolesTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/css_comingSoon/bigvideo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/css_comingSoon/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/css_comingSoon/jquery.countdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/css_comingSoon/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/css/bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/css/fontawesome-all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/css/pignose.calender.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/css/simplyCountdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/css/style4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/css/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/Preloader_2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/b1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/ban1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/ban2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/ban3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/ban4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/ban5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/ban6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/c1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/c2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/c3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/c4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/clone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/icon_navs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/menu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/images/timer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/SimpleChart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/amcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/chart1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/circle_bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/example.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/jquery-2.2.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/jquery.charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/kuma-gauge.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/percentage-circles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/pignose.calender.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/prettymaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/raphael-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/rumcaJS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/simplyCountdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/js/skycons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css_admin/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fonts_comingSoon/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fonts_comingSoon/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fonts_comingSoon/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fonts_comingSoon/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fonts_comingSoon/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fonts_comingSoon/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fonts_comingSoon/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/blood_shot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/crocodile_death.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/destroy_battle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/m4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/one piece.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/shazam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/star_war.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/terminator.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/js_comingSoon/bigvideo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/js_comingSoon/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/js_comingSoon/simplyCountdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/js_comingSoon/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/video/axl-trailer-1_h720p.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/video/jurassicworld-biggame_h1080p.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/video/video_comingSoon/Mykonos.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/video/video_comingSoon/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/ActionMessage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/ActionSection.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/ApplicationLogo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/ApplicationMark.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/Button.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/ConfirmationModal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/ConfirmsPassword.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/DangerButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/DialogModal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/Dropdown.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/DropdownLink.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/FormSection.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/Input.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/InputError.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/Label.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/Modal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/NavLink.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/ResponsiveNavLink.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/SecondaryButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/SectionBorder.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/SectionTitle.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Jetstream/Welcome.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Layouts/AppLayout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Mixins/InteractsWithErrorBags.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/API/ApiTokenManager.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/API/Index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Dashboard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Profile/DeleteUserForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Profile/LogoutOtherBrowserSessionsForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Profile/Show.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Profile/TwoFactorAuthenticationForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Profile/UpdatePasswordForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Profile/UpdateProfileInformationForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/addUser.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/charts.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/forgot.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/forms.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout_admin/footer_admin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout_admin/header_admin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/listUser.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/map.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/modals.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/page_admin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/pricing.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/tables.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/widgets.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/coming_soon/coming_soon.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/headers.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/pages/about.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/pages/contact.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/pages/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/pages/kind.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/CONTRIBUTING.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/ChangeLog" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/LICENSE" afterDir="false" />
@@ -3441,6 +3214,14 @@
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/view_create.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/view_operations.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/forms.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/listUser.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/listUser.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/tables.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/widgets.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/about.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3452,7 +3233,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -3686,7 +3467,7 @@
       <workItem from="1607475832806" duration="486000" />
       <workItem from="1607488305137" duration="7766000" />
       <workItem from="1607520894391" duration="117000" />
-      <workItem from="1607523732381" duration="2255000" />
+      <workItem from="1607523732381" duration="4028000" />
     </task>
     <servers />
   </component>
